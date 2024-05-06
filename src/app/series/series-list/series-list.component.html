@@ -1,0 +1,23 @@
+<!-- src/app/series/series-list/series-list.component.html -->
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Channel</th>
+        <th>Seasons</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let serie of series">
+        <td>{{ serie.id }}</td>
+        <td>{{ serie.name }}</td>
+        <td>{{ serie.channel }}</td>
+        <td>{{ serie.seasons }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <span>Seasons average: </span>
+  <span>{{ averageSeasons | number:'1.2-2' }}</span>
+  

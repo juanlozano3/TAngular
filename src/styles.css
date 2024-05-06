@@ -1,0 +1,17 @@
+/* src/styles.css */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --bs-primary: #1c1d3b;
+}
+
+.bg-primary {
+    background-color: #1c1d3b !important;
+}
+
+.main-section {
+    padding: 2rem 0;
+}
